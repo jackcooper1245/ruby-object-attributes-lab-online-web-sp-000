@@ -8,4 +8,12 @@ class Dog
     @the_dogs_name
   end 
   
+  def breed=(dogs_breed)
+    @the_dogs_breed = dogs_breed 
+  end
+  
+  def breed
+    @the_dogs_breed
+  end
+  
 end
